@@ -17,7 +17,7 @@ jobs:
     - name: Install build tools
       run: |
         python3 -m pip install --upgrade pip 
-        pip install wheel pyspark==3.0.2
+        pip install wheel pyspark==3.0.2 spark-nlp
         python3 setup.py sdist bdist_wheel
     - name: Store the distribution packages
       uses: actions/upload-artifact@v3
