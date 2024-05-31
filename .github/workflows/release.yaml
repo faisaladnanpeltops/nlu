@@ -15,7 +15,7 @@ jobs:
       with:
         python-version: "3.7"
     - name: Install build tools
-      run: >-
+      run: |
         python3 -m pip install --upgrade pip 
         pip install wheel
         python3 setup.py sdist bdist_wheel
