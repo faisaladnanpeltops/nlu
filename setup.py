@@ -20,7 +20,7 @@ REQUIRED_PKGS = [
 
 setup(
 
-    name='nlu',
+    name='nlu-dev',
 
     version=nlu.version(),
 
